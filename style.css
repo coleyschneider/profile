@@ -1,0 +1,78 @@
+body {
+  background-color: lightpink;
+  font-family: sriracha;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h1 {
+  color: darkred;
+  font-family: sriracha;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+h2 {
+  color: gray;
+  font-family: sriracha;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+p {
+  color: gray;
+  font-family: sriracha;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  font-family: sriracha;
+  padding-inline-start: 0px;
+  color: gray;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid grey;
+  text-align: center;
+/*  box-shadow: 10px 10px 30px lightgray;*/
+  margin: 15 auto;
+  border-radius: 10px
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
